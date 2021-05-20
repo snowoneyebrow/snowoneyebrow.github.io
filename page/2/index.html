@@ -183,7 +183,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line">start = time.perf_counter()</span><br><span class="line"><span class="comment"># 放入程序运行代码</span></span><br><span class="line">end = time.perf_counter()</span><br><span class="line"><span class="built_in">print</span>((end - start), <span class="string">&quot;s&quot;</span>)</span><br></pre></td></tr></table></figure>
+          <span id="more"></span>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line">start = time.perf_counter()</span><br><span class="line"><span class="comment"># 放入程序运行代码</span></span><br><span class="line">end = time.perf_counter()</span><br><span class="line"><span class="built_in">print</span>((end - start), <span class="string">&quot;s&quot;</span>)</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -241,7 +243,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>各类系统都可以通过修改用户目录下的 <code>.condarc</code> 文件实现换源。Windows 无法直接创建名为 <code>.condarc</code> 的文件，可先在命令行执行 <code>conda config --set show_channel_urls yes</code>，生成该文件后再进行修改。</p>
+          <span id="more"></span>
+
+<p>各类系统都可以通过修改用户目录下的 <code>.condarc</code> 文件实现换源。Windows 无法直接创建名为 <code>.condarc</code> 的文件，可先在命令行执行 <code>conda config --set show_channel_urls yes</code>，生成该文件后再进行修改。</p>
 <p><code>.condarc</code> 文件修改内容如下：</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">channels:</span><br><span class="line">  - defaults</span><br><span class="line">show_channel_urls: true</span><br><span class="line">channel_alias: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn/anaconda</span><br><span class="line">default_channels:</span><br><span class="line">  - https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>pkgs/main</span><br><span class="line">  - https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>pkgs/free</span><br><span class="line">  - https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>pkgs/r</span><br><span class="line">  - https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>pkgs/pro</span><br><span class="line">  - https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>pkgs/msys2</span><br><span class="line">custom_channels:</span><br><span class="line">  conda-forge: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>cloud</span><br><span class="line">  msys2: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>cloud</span><br><span class="line">  bioconda: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>cloud</span><br><span class="line">  menpo: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>cloud</span><br><span class="line">  pytorch: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>cloud</span><br><span class="line">  simpleitk: https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/anaconda/</span>cloud</span><br></pre></td></tr></table></figure>
 
@@ -303,7 +307,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>在文件夹 <code>C:\Users\你的用户名\pip\</code> 下创建 <code>pip.ini</code>，若没有 <code>pip</code> 文件夹则要自行创建。</p>
+          <span id="more"></span>
+
+<p>在文件夹 <code>C:\Users\你的用户名\pip\</code> 下创建 <code>pip.ini</code>，若没有 <code>pip</code> 文件夹则要自行创建。</p>
 <p>编辑 <code>pip.ini</code> 内容如下：</p>
 <figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[<span class="keyword">global</span>]</span><br><span class="line"><span class="keyword">index</span>-url=https://pypi.tuna.tsinghua.edu.cn/simple/ </span><br><span class="line">[install]</span><br><span class="line"><span class="keyword">trusted</span>-host=pypi.tuna.tsinghua.edu.cn</span><br><span class="line"><span class="keyword">disable</span>-pip-<span class="keyword">version</span>-<span class="keyword">check</span>=<span class="keyword">true</span>  </span><br><span class="line">timeout = <span class="number">6000</span></span><br></pre></td></tr></table></figure>
 
@@ -363,7 +369,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>右键电脑右下角网络图标，<code>打开“网络和 Internet”设置</code>，<code>更改适配器选项</code>，复制多余的连接的名字。</p>
+          <span id="more"></span>
+
+<p>右键电脑右下角网络图标，<code>打开“网络和 Internet”设置</code>，<code>更改适配器选项</code>，复制多余的连接的名字。</p>
 <p><code>Win+R</code> 输入 <code>regedit</code>，进入注册表。<code>Ctrl+F</code> 搜索刚才复制的名字，把搜索到的项删掉。不断重复搜索与删除的过程，直到搜不到为止。</p>
 <p>回到<code>网络连接</code>页面，刷新一下即可发现多余的连接已被删除。</p>
 
@@ -423,7 +431,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>在命令行输入 <code>diskperf -y</code> 即可开启，输入 <code>diskperf -n</code> 即可关闭。</p>
+          <span id="more"></span>
+
+<p>在命令行输入 <code>diskperf -y</code> 即可开启，输入 <code>diskperf -n</code> 即可关闭。</p>
 
       
     </div>
@@ -481,7 +491,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>以下面两个文件为例：</p>
+          <span id="more"></span>
+
+<p>以下面两个文件为例：</p>
 <p><code>CrossChannel-1.12-release.apk</code></p>
 <p><code>main.112.com.qqh.crosschannel.obb</code></p>
 <p>先安装 apk，再把 obb 放到 <code>/Android/obb/com.qqh.crosschannel/</code> 文件夹下即可。</p>
