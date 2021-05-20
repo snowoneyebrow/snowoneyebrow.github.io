@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"snowoneyebrow.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="FFmpeg 下载地址：https:&#x2F;&#x2F;www.gyan.dev&#x2F;ffmpeg&#x2F;builds&#x2F;ffmpeg-release-full.7z 下载完后，解压到一个合适的位置，把 \ffmpeg-4.2.3-win64-static\bin 文件夹加入环境变量中的系统变量 Path 即可。这步的意义是为了可以在命令行中使用 ffmpeg 命令。 打开命令行，进入 FLV 文件所在文件夹，输入 ff">
+  <meta name="description" content="FFmpeg 下载地址：https:&#x2F;&#x2F;www.gyan.dev&#x2F;ffmpeg&#x2F;builds&#x2F;ffmpeg-release-full.7z 下载完后，解压到一个合适的位置，把 \ffmpeg-4.2.3-win64-static\bin 文件夹加入环境变量中的系统变量 Path 即可。这步的意义是为了可以在命令行中使用 ffmpeg 命令。 打开命令行，进入 FLV 文件所在文件夹，输入 ffmp">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FFmpeg 把 FLV 转为 MP4">
 <meta property="og:url" content="https://snowoneyebrow.github.io/2021/01/10/2021-01-10-ffmpeg-convert/index.html">
 <meta property="og:site_name" content="千城忆梦&#39;s blog">
-<meta property="og:description" content="FFmpeg 下载地址：https:&#x2F;&#x2F;www.gyan.dev&#x2F;ffmpeg&#x2F;builds&#x2F;ffmpeg-release-full.7z 下载完后，解压到一个合适的位置，把 \ffmpeg-4.2.3-win64-static\bin 文件夹加入环境变量中的系统变量 Path 即可。这步的意义是为了可以在命令行中使用 ffmpeg 命令。 打开命令行，进入 FLV 文件所在文件夹，输入 ff">
+<meta property="og:description" content="FFmpeg 下载地址：https:&#x2F;&#x2F;www.gyan.dev&#x2F;ffmpeg&#x2F;builds&#x2F;ffmpeg-release-full.7z 下载完后，解压到一个合适的位置，把 \ffmpeg-4.2.3-win64-static\bin 文件夹加入环境变量中的系统变量 Path 即可。这步的意义是为了可以在命令行中使用 ffmpeg 命令。 打开命令行，进入 FLV 文件所在文件夹，输入 ffmp">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-01-09T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-05-20T09:24:36.076Z">
+<meta property="article:modified_time" content="2021-05-20T11:17:19.638Z">
 <meta property="article:author" content="千城忆梦">
 <meta name="twitter:card" content="summary">
 
@@ -192,9 +192,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <span id="more"></span>
-
-<p>FFmpeg 下载地址：<a target="_blank" rel="noopener" href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z">https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z</a></p>
+        <p>FFmpeg 下载地址：<a target="_blank" rel="noopener" href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z">https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z</a></p>
 <p>下载完后，解压到一个合适的位置，把 <code>\ffmpeg-4.2.3-win64-static\bin</code> 文件夹加入环境变量中的系统变量 <code>Path</code> 即可。这步的意义是为了可以在命令行中使用 ffmpeg 命令。</p>
 <p>打开命令行，进入 FLV 文件所在文件夹，输入 <code>ffmpeg -i input.flv -c copy output.mp4</code> 即可。</p>
 <p>其中，<code>-i</code> 是一个固定的参数，<code>-c</code> 指的是选择一个编码器，<code>copy</code> 指的是复制所有流，<code>-c copy</code> 指的是选择复制所有流这个编码器，即编码方面不做任何改动，仅仅只是改变视频的格式。</p>
