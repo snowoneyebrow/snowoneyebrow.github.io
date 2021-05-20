@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"snowoneyebrow.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"snowoneyebrow.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta property="og:type" content="website">
@@ -130,6 +130,10 @@
     </header>
 
     
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
 
     <main class="main">
@@ -143,7 +147,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/05/conda-%E6%8D%A2%E4%B8%BA%E6%B8%85%E5%8D%8E%E6%BA%90/">
+    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/06/2021-01-06-python-time/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -157,7 +161,65 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/05/conda-%E6%8D%A2%E4%B8%BA%E6%B8%85%E5%8D%8E%E6%BA%90/" class="post-title-link" itemprop="url">conda 换为清华源</a>
+            <a href="/2021/01/06/2021-01-06-python-time/" class="post-title-link" itemprop="url">Python 显示程序运行时间</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-01-06 00:00:00" itemprop="dateCreated datePublished" datetime="2021-01-06T00:00:00+08:00">2021-01-06</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line">start = time.perf_counter()</span><br><span class="line"><span class="comment"># 放入程序运行代码</span></span><br><span class="line">end = time.perf_counter()</span><br><span class="line"><span class="built_in">print</span>((end - start), <span class="string">&quot;s&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/05/2021-01-05-conda-source/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="千城忆梦">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="千城忆梦's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/05/2021-01-05-conda-source/" class="post-title-link" itemprop="url">conda 换为清华源</a>
         </h2>
 
         <div class="post-meta">
@@ -205,7 +267,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/04/pip-%E6%8D%A2%E4%B8%BA%E6%B8%85%E5%8D%8E%E6%BA%90/">
+    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/04/2021-01-04-pip-source/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -219,7 +281,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/04/pip-%E6%8D%A2%E4%B8%BA%E6%B8%85%E5%8D%8E%E6%BA%90/" class="post-title-link" itemprop="url">pip 换为清华源</a>
+            <a href="/2021/01/04/2021-01-04-pip-source/" class="post-title-link" itemprop="url">pip 换为清华源</a>
         </h2>
 
         <div class="post-meta">
@@ -265,7 +327,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/03/%E5%88%A0%E9%99%A4%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E8%BF%9E%E6%8E%A5/">
+    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/03/2021-01-03-delete-network/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -279,7 +341,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/03/%E5%88%A0%E9%99%A4%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E8%BF%9E%E6%8E%A5/" class="post-title-link" itemprop="url">删除网络连接中多余的连接</a>
+            <a href="/2021/01/03/2021-01-03-delete-network/" class="post-title-link" itemprop="url">删除网络连接中多余的连接</a>
         </h2>
 
         <div class="post-meta">
@@ -325,7 +387,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/02/Windows-Server-%E5%BC%80%E5%90%AF%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E7%A3%81%E7%9B%98%E7%9B%91%E6%8E%A7%E5%92%8C%E7%BD%91%E7%BB%9C%E7%9B%91%E6%8E%A7/">
+    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/02/2021-01-02-windows-server/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -339,7 +401,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/02/Windows-Server-%E5%BC%80%E5%90%AF%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E7%A3%81%E7%9B%98%E7%9B%91%E6%8E%A7%E5%92%8C%E7%BD%91%E7%BB%9C%E7%9B%91%E6%8E%A7/" class="post-title-link" itemprop="url">Windows Server 开启任务管理器中的磁盘监控和网络监控</a>
+            <a href="/2021/01/02/2021-01-02-windows-server/" class="post-title-link" itemprop="url">Windows Server 开启任务管理器中的磁盘监控和网络监控</a>
         </h2>
 
         <div class="post-meta">
@@ -383,7 +445,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/01/%E5%AE%89%E8%A3%85-apk-%E5%92%8C-obb-%E6%96%87%E4%BB%B6/">
+    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2021/01/01/2021-01-01-apk-obb/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -397,7 +459,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/01/%E5%AE%89%E8%A3%85-apk-%E5%92%8C-obb-%E6%96%87%E4%BB%B6/" class="post-title-link" itemprop="url">安装 apk 和 obb 文件</a>
+            <a href="/2021/01/01/2021-01-01-apk-obb/" class="post-title-link" itemprop="url">安装 apk 和 obb 文件</a>
         </h2>
 
         <div class="post-meta">
@@ -426,95 +488,6 @@
 <p><code>main.112.com.qqh.crosschannel.obb</code></p>
 <p>先安装 apk，再把 obb 放到 <code>/Android/obb/com.qqh.crosschannel/</code> 文件夹下即可。</p>
 <p>其中，<code>/Android/obb/</code> 文件夹位于手机根目录下，后面的 <code>com.qqh.crosschannel</code> 文件夹需要自行创建，起名依据为 obb 文件名中 com 及后面的内容。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://snowoneyebrow.github.io/2020/12/31/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E5%90%88%E9%9B%86/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="千城忆梦">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="千城忆梦's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/31/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E5%90%88%E9%9B%86/" class="post-title-link" itemprop="url">各种软件下载地址合集</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-12-31 00:00:00" itemprop="dateCreated datePublished" datetime="2020-12-31T00:00:00+08:00">2020-12-31</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><strong>目录在左边，已按首字母排序，方便查找。</strong></p>
-<p><strong>如果打开网址后找不到软件在哪，可发邮件到 <code>770117459@qq.com</code> 向我询问</strong></p>
-<p><strong>（如果出现网页或操作加载很慢的情况，请先尝试翻墙）</strong></p>
-<h1 id="电脑端"><a href="#电脑端" class="headerlink" title="电脑端"></a>电脑端</h1><h2 id="Adobe-全家桶"><a href="#Adobe-全家桶" class="headerlink" title="Adobe 全家桶"></a>Adobe 全家桶</h2><p><a target="_blank" rel="noopener" href="https://weibo.com/vposy">https://weibo.com/vposy</a></p>
-<h2 id="Dism"><a href="#Dism" class="headerlink" title="Dism++"></a>Dism++</h2><p><a target="_blank" rel="noopener" href="https://github.com/Chuyu-Team/Dism-Multi-language/releases">https://github.com/Chuyu-Team/Dism-Multi-language/releases</a></p>
-<h2 id="会声会影"><a href="#会声会影" class="headerlink" title="会声会影"></a>会声会影</h2><p><a target="_blank" rel="noopener" href="http://www.hy345.com/home.php?mod=space&amp;uid=32372&amp;do=thread&amp;view=me&amp;from=space">http://www.hy345.com/home.php?mod=space&amp;uid=32372&amp;do=thread&amp;view=me&amp;from=space</a></p>
-<h2 id="洛雪音乐助手"><a href="#洛雪音乐助手" class="headerlink" title="洛雪音乐助手"></a>洛雪音乐助手</h2><p><a target="_blank" rel="noopener" href="https://github.com/lyswhut/lx-music-desktop">https://github.com/lyswhut/lx-music-desktop</a></p>
-<p>README 处有蓝奏云链接。</p>
-<h2 id="M3U8-Downloader"><a href="#M3U8-Downloader" class="headerlink" title="M3U8-Downloader"></a>M3U8-Downloader</h2><p><a target="_blank" rel="noopener" href="https://github.com/magicdmer/M3U8-Downloader/releases">https://github.com/magicdmer/M3U8-Downloader/releases</a></p>
-<h2 id="mobp：加快-Microsoft-Office-启动速度"><a href="#mobp：加快-Microsoft-Office-启动速度" class="headerlink" title="mobp：加快 Microsoft Office 启动速度"></a>mobp：加快 Microsoft Office 启动速度</h2><p><a target="_blank" rel="noopener" href="https://github.com/kkocdko/mobp/releases">https://github.com/kkocdko/mobp/releases</a></p>
-<h2 id="NewFileTime：修改文件时间"><a href="#NewFileTime：修改文件时间" class="headerlink" title="NewFileTime：修改文件时间"></a>NewFileTime：修改文件时间</h2><p><a target="_blank" rel="noopener" href="https://www.softwareok.com/?Download=NewFileTime">https://www.softwareok.com/?Download=NewFileTime</a></p>
-<h2 id="Notepad2"><a href="#Notepad2" class="headerlink" title="Notepad2"></a>Notepad2</h2><p><a target="_blank" rel="noopener" href="https://github.com/zufuliu/notepad2/releases">https://github.com/zufuliu/notepad2/releases</a></p>
-<h2 id="O-amp-O-ShutUp10：控制-Win-10-权限"><a href="#O-amp-O-ShutUp10：控制-Win-10-权限" class="headerlink" title="O&amp;O ShutUp10：控制 Win 10 权限"></a>O&amp;O ShutUp10：控制 Win 10 权限</h2><p><a target="_blank" rel="noopener" href="https://www.oo-software.com/en/shutup10">https://www.oo-software.com/en/shutup10</a></p>
-<h2 id="Padavan-路由器固件"><a href="#Padavan-路由器固件" class="headerlink" title="Padavan 路由器固件"></a>Padavan 路由器固件</h2><p><a target="_blank" rel="noopener" href="https://opt.cn2qq.com/padavan">https://opt.cn2qq.com/padavan</a></p>
-<h2 id="PC-版微信-QQ-TIM-防撤回补丁"><a href="#PC-版微信-QQ-TIM-防撤回补丁" class="headerlink" title="PC 版微信 / QQ / TIM 防撤回补丁"></a>PC 版微信 / QQ / TIM 防撤回补丁</h2><p><a target="_blank" rel="noopener" href="https://github.com/huiyadanli/RevokeMsgPatcher/releases">https://github.com/huiyadanli/RevokeMsgPatcher/releases</a></p>
-<h2 id="PDF-补丁丁"><a href="#PDF-补丁丁" class="headerlink" title="PDF 补丁丁"></a>PDF 补丁丁</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/pdfpatcher">https://www.cnblogs.com/pdfpatcher</a></p>
-<h2 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h2><p><a target="_blank" rel="noopener" href="https://github.com/PowerShell/PowerShell">https://github.com/PowerShell/PowerShell</a></p>
-<h2 id="Rufus：做系统盘"><a href="#Rufus：做系统盘" class="headerlink" title="Rufus：做系统盘"></a>Rufus：做系统盘</h2><p><a target="_blank" rel="noopener" href="http://rufus.ie/">http://rufus.ie</a></p>
-<h2 id="SpeedyFox：加快浏览器启动速度"><a href="#SpeedyFox：加快浏览器启动速度" class="headerlink" title="SpeedyFox：加快浏览器启动速度"></a>SpeedyFox：加快浏览器启动速度</h2><p><a target="_blank" rel="noopener" href="https://crystalidea.com/speedyfox">https://crystalidea.com/speedyfox</a></p>
-<h2 id="图像标注"><a href="#图像标注" class="headerlink" title="图像标注"></a>图像标注</h2><p><a target="_blank" rel="noopener" href="https://github.com/wkentaro/labelme">https://github.com/wkentaro/labelme</a></p>
-<p><a target="_blank" rel="noopener" href="https://github.com/tzutalin/labelImg">https://github.com/tzutalin/labelImg</a></p>
-<h2 id="Ubuntu-更换下载源为清华源"><a href="#Ubuntu-更换下载源为清华源" class="headerlink" title="Ubuntu 更换下载源为清华源"></a>Ubuntu 更换下载源为清华源</h2><p><a target="_blank" rel="noopener" href="https://tuna.moe/oh-my-tuna">https://tuna.moe/oh-my-tuna</a></p>
-<h2 id="Wampserver：搭建网站或服务器（Windows-下的-Apache-Mysql-MariaDB-Perl-PHP-Python）"><a href="#Wampserver：搭建网站或服务器（Windows-下的-Apache-Mysql-MariaDB-Perl-PHP-Python）" class="headerlink" title="Wampserver：搭建网站或服务器（Windows 下的 Apache + Mysql / MariaDB + Perl / PHP / Python）"></a>Wampserver：搭建网站或服务器（Windows 下的 Apache + Mysql / MariaDB + Perl / PHP / Python）</h2><p><a target="_blank" rel="noopener" href="http://wampserver.aviatechno.net/">http://wampserver.aviatechno.net</a></p>
-<h2 id="Windows-7-更新包（Windows-Server-2008-也适用）-amp-amp-Windows-7-USB-3-驱动程序"><a href="#Windows-7-更新包（Windows-Server-2008-也适用）-amp-amp-Windows-7-USB-3-驱动程序" class="headerlink" title="Windows 7 更新包（Windows Server 2008 也适用）&amp;&amp; Windows 7 USB 3 驱动程序"></a>Windows 7 更新包（Windows Server 2008 也适用）&amp;&amp; Windows 7 USB 3 驱动程序</h2><p><a target="_blank" rel="noopener" href="https://blog.simplix.info/update7">https://blog.simplix.info/update7</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.simplix.info/win7usb3">https://blog.simplix.info/win7usb3</a></p>
-<h2 id="XSHELL-6-家庭-学习免费版"><a href="#XSHELL-6-家庭-学习免费版" class="headerlink" title="XSHELL 6 家庭 / 学习免费版"></a>XSHELL 6 家庭 / 学习免费版</h2><p><a target="_blank" rel="noopener" href="https://www.netsarang.com/zh/free-for-home-school">https://www.netsarang.com/zh/free-for-home-school</a></p>
-<h2 id="在浏览器中解锁加密的音乐文件"><a href="#在浏览器中解锁加密的音乐文件" class="headerlink" title="在浏览器中解锁加密的音乐文件"></a>在浏览器中解锁加密的音乐文件</h2><p><a target="_blank" rel="noopener" href="https://ix64.github.io/unlock-music">https://ix64.github.io/unlock-music</a></p>
-<h1 id="手机端"><a href="#手机端" class="headerlink" title="手机端"></a>手机端</h1><h2 id="Go-谷歌安装器"><a href="#Go-谷歌安装器" class="headerlink" title="Go 谷歌安装器"></a>Go 谷歌安装器</h2><p><a target="_blank" rel="noopener" href="https://www.coolapk.com/apk/com.goplaycn.googleinstall">https://www.coolapk.com/apk/com.goplaycn.googleinstall</a></p>
-<h2 id="MiNE：ONS-游戏安卓模拟器"><a href="#MiNE：ONS-游戏安卓模拟器" class="headerlink" title="MiNE：ONS 游戏安卓模拟器"></a>MiNE：ONS 游戏安卓模拟器</h2><p><a target="_blank" rel="noopener" href="https://tieba.baidu.com/p/6476350812?see_lz=1">https://tieba.baidu.com/p/6476350812?see_lz=1</a></p>
-<p><a target="_blank" rel="noopener" href="https://tieba.baidu.com/p/4416127783?see_lz=1&amp;pn=2">https://tieba.baidu.com/p/4416127783?see_lz=1&amp;pn=2</a></p>
-<h2 id="太极：一个可以免-Root-运行的类-Xposed-框架"><a href="#太极：一个可以免-Root-运行的类-Xposed-框架" class="headerlink" title="太极：一个可以免 Root 运行的类 Xposed 框架"></a>太极：一个可以免 Root 运行的类 Xposed 框架</h2><p><a target="_blank" rel="noopener" href="https://taichi.cool/zh">https://taichi.cool/zh</a></p>
-<h2 id="WPS-Office-for-Android-专业版"><a href="#WPS-Office-for-Android-专业版" class="headerlink" title="WPS Office for Android 专业版"></a>WPS Office for Android 专业版</h2><p><a target="_blank" rel="noopener" href="http://mo.wps.cn/pc-app/office-pro.html">http://mo.wps.cn/pc-app/office-pro.html</a></p>
 
       
     </div>
@@ -606,22 +579,8 @@
 </div>
 
 
-  <div class="links-of-blogroll motion-element">
-    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
-      Links
-    </div>
-    <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="https://snowoneyebrow.github.io/" title="https:&#x2F;&#x2F;snowoneyebrow.github.io&#x2F;">Title</a>
-        </li>
-    </ul>
-  </div>
 
       </div>
-        <div class="back-to-top motion-element">
-          <i class="fa fa-arrow-up"></i>
-          <span>0%</span>
-        </div>
 
     </div>
   </aside>
@@ -642,11 +601,11 @@
   &copy; 
   <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">千城忆梦</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
@@ -672,7 +631,7 @@
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
