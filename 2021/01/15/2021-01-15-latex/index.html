@@ -28,7 +28,7 @@
 <meta property="og:description" content="&amp;emsp;">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-01-14T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-05-20T13:00:43.585Z">
+<meta property="article:modified_time" content="2021-05-23T09:48:20.336Z">
 <meta property="article:author" content="千城忆梦">
 <meta name="twitter:card" content="summary">
 
@@ -193,14 +193,19 @@
 
       
         <p>&emsp;</p>
-<p>LaTeX 入门文档：<a target="_blank" rel="noopener" href="https://liam.page/2014/09/08/latex-introduction">https://liam.page/2014/09/08/latex-introduction</a></p>
-<p>TeX Live 换为清华源：</p>
+<p>1、TeX Live 换为清华源：</p>
 <p>打开命令行，进入 TeX Live 安装目录，比如 <code>C:\texlive\2020</code>，在命令行中执行 <code>tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet</code> 即可永久更改镜像源。</p>
 <p>（本人已换用 MiKTeX）</p>
-<p>TeXstudio 主题设置：<a target="_blank" rel="noopener" href="https://tex.stackexchange.com/questions/108315/how-can-i-set-a-dark-theme-in-texstudio">https://tex.stackexchange.com/questions/108315/how-can-i-set-a-dark-theme-in-texstudio</a></p>
+<p>2、TeXstudio 主题设置：<a target="_blank" rel="noopener" href="https://tex.stackexchange.com/questions/108315/how-can-i-set-a-dark-theme-in-texstudio">https://tex.stackexchange.com/questions/108315/how-can-i-set-a-dark-theme-in-texstudio</a></p>
+<p>3、LaTeX 入门文档：<a target="_blank" rel="noopener" href="https://liam.page/2014/09/08/latex-introduction">https://liam.page/2014/09/08/latex-introduction</a></p>
 <p>LaTeX 模板大全：<a target="_blank" rel="noopener" href="https://www.latexstudio.net/">https://www.latexstudio.net</a></p>
 <p>数学建模国赛模板：<a target="_blank" rel="noopener" href="https://github.com/latexstudio/CUMCMThesis">https://github.com/latexstudio/CUMCMThesis</a></p>
 <p>数学建模美赛模板：<a target="_blank" rel="noopener" href="https://github.com/qyxf/easymcm">https://github.com/qyxf/easymcm</a></p>
+<p>4、自用部分模板：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[12pt,a4paper,UTF8]&#123;ctexart&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125; % 插入图片</span><br><span class="line">\usepackage&#123;subcaption&#125; % 图片下方的描述文字</span><br><span class="line">\usepackage&#123;underscore&#125; % 使下划线可用</span><br><span class="line">\usepackage&#123;url&#125; % 插入网址</span><br><span class="line">\usepackage&#123;amsmath&#125; % 数学公式</span><br><span class="line">\usepackage&#123;amssymb&#125; % 数学符号</span><br><span class="line">\setmainfont&#123;Microsoft YaHei&#125;  % 设置英文字体为微软雅黑</span><br><span class="line">\setCJKmainfont&#123;Microsoft YaHei&#125;  % 设置中文字体为微软雅黑</span><br><span class="line">\pagestyle&#123;plain&#125; % 设置页脚数字居中</span><br><span class="line">\setlength&#123;\parindent&#125;&#123;0pt&#125; % 去掉全局的首行自动缩进</span><br><span class="line">% \noindent % 去掉某段的首行自动缩进</span><br><span class="line"></span><br><span class="line">%\usepackage&#123;fancyhdr&#125; % 设置页眉页脚</span><br><span class="line">%\pagestyle&#123;fancy&#125;</span><br><span class="line">%\lhead&#123;&#125; % 左页眉</span><br><span class="line">%\rhead&#123;&#125; % 右页眉</span><br><span class="line">%\lfoot&#123;&#125; % 左页脚</span><br><span class="line">%\cfoot&#123;&#125; % 中页脚</span><br><span class="line">%\rfoot&#123;\thepage&#125; % 右页脚</span><br><span class="line">%\renewcommand&#123;\headrulewidth&#125;&#123;0.4pt&#125; % 设置页眉分割线</span><br><span class="line">%\renewcommand&#123;\headwidth&#125;&#123;\textwidth&#125;</span><br><span class="line">%\renewcommand&#123;\footrulewidth&#125;&#123;0pt&#125;</span><br><span class="line"></span><br><span class="line">%\usepackage&#123;geometry&#125; % 设置页边距</span><br><span class="line">%\geometry&#123;papersize=&#123;21cm,29.7cm&#125;&#125;</span><br><span class="line">%\geometry&#123;left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\title&#123;\textbf&#123;2017级第一次作业&#125;&#125;</span><br><span class="line">\author&#123;\textbf&#123;林瑞洲 20172131071&#125;&#125;</span><br><span class="line">\date&#123;\textbf&#123;\today&#125;&#125; % 今日日期</span><br><span class="line"></span><br><span class="line">\maketitle % 标题页</span><br><span class="line">\tableofcontents % 目录页</span><br><span class="line">\newpage % 新一页</span><br><span class="line"></span><br><span class="line">\section&#123;&#125;</span><br><span class="line">	\subsection&#123;&#125;</span><br><span class="line">		\subsubsection&#123;&#125;</span><br><span class="line">		</span><br><span class="line">\begin&#123;figure&#125;[!h]</span><br><span class="line">	\centering</span><br><span class="line">	\includegraphics[width = \textwidth]&#123;pictures/1.png&#125; % 图片自行准备</span><br><span class="line">	\caption&#123;123&#125;</span><br><span class="line">	% \label&#123;1&#125; % 一般不用，用于文章中引用图片</span><br><span class="line">\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;itemize&#125;</span><br><span class="line">	\item a</span><br><span class="line">	\item b</span><br><span class="line">\end&#123;itemize&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;enumerate&#125; % 后面可以加参数</span><br><span class="line">	\item a</span><br><span class="line">	\item b</span><br><span class="line">\end&#123;enumerate&#125;</span><br><span class="line"></span><br><span class="line">$a=b+c$ % 行内公式</span><br><span class="line">\[a=b+c\] % 行间公式（不带序号）</span><br><span class="line">\begin&#123;equation&#125;  % 行间公式（带序号）</span><br><span class="line">	a=b+c</span><br><span class="line">\end&#123;equation&#125;</span><br><span class="line"></span><br><span class="line">% 画表格</span><br><span class="line">\begin&#123;tabular&#125;&#123;|c|c|c|&#125; % l：居左，c：居中，r：居右</span><br><span class="line">	\hline</span><br><span class="line">	A &amp; B &amp; 类标号\\</span><br><span class="line">	\hline</span><br><span class="line">	T &amp; F &amp; + \\</span><br><span class="line">	\hline</span><br><span class="line">\end&#123;tabular&#125;</span><br><span class="line"></span><br><span class="line">~\\ % 换行</span><br><span class="line"></span><br><span class="line">\textbf&#123;123&#125; % 加粗</span><br><span class="line"></span><br><span class="line">a\quad b % 空格</span><br><span class="line"></span><br><span class="line">% 特殊字符如%，&#123;&#125;等，要在前面加上转义字符\</span><br><span class="line"></span><br><span class="line">% 公式篇</span><br><span class="line">\[\rightarrow\]</span><br><span class="line">\[\sigma\]</span><br><span class="line">\[\cup\]</span><br><span class="line">\[\ne\]</span><br><span class="line">\[\leqslant\]</span><br><span class="line">\[\geqslant\]</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<div class="pdfobject-container" data-target="../../../2021-01-15-latex/document.pdf" data-height="500px"></div>
 
     </div>
 
@@ -364,6 +369,26 @@
 
 
 
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 
